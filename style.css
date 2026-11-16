@@ -1,0 +1,14 @@
+body { font-family: Arial, sans-serif; background-color: lightyellow; }
+
+h1 { font-family: "Times New Roman", serif; font-size: 20pt; color: navy; }
+
+img { width: 200px; }
+nav a {
+    margin-right: 12px;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 4px;
+}

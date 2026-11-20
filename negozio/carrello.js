@@ -1,14 +1,14 @@
 /* carrello.js - il cervello del negozio (solo HTML, CSS e JavaScript: nessun server, nessun servizio esterno).
    PARTE 1: qui sotto ci sono i punti che cambi tu per fare IL TUO negozio. Cambia solo il testo tra le virgolette. */
 
-var NEGOZIO = "Il Negozio di Prova";            // 1) il nome del negozio
-var LOGO = "🛍️";                                // 5) un'immagine: un emoji, oppure il nome di un file (es. "logo.png")
+var NEGOZIO = "Luca shop";            // 1) il nome del negozio
+var LOGO = "🎮";                                // 5) un'immagine: un emoji, oppure il nome di un file (es. "logo.png")
 var PRODOTTI = [                                // 3) i tuoi 3 prodotti: id (unico), nome, prezzo in euro, foto (emoji o file)
-  { id: "zaino",  nome: "Zaino blu",    prezzo: 25, foto: "🎒" },
-  { id: "cuffie", nome: "Cuffie nere",  prezzo: 40, foto: "🎧" },
-  { id: "penna",  nome: "Penna verde",  prezzo: 2.5, foto: "🖊️" }
+  { id: "zaino",  nome: "Mouse gaming",    prezzo: 25, foto: "🖱️" },
+  { id: "cuffie", nome: "Tastiera RGB",  prezzo: 50, foto: "⌨️" },
+  { id: "penna",  nome: "Cuffie gaming",  prezzo: 35, foto: "🎧" }
 ];
-var TESTO_EMAIL = "Grazie per il tuo ordine! Lo prepariamo subito.";   // 4) il testo della email di conferma
+var TESTO_EMAIL = "Grazie per aver acquistato da Luca Shop! Buono shopping!";
 var MITTENTE = "ordini@nome-del-tuo-negozio.example";   // indirizzo FINTO (.example è riservato agli esempi): non scrivere un indirizzo vero
 var LINK_HOME = "../index.html";                 // dove porta il menu «Il mio sito» (la home di mio-sito, una cartella sopra). Vuoto = niente link
 // 2) i colori si cambiano in stile.css (la riga --colore)
